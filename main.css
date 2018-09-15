@@ -4,6 +4,9 @@ body {
 .bg-light {
     background-color: #008ccc!important;
 }
+.navbar-togggler-icon {
+    color: white!important;
+}
 .active>.nav-link {
     color: white!important;
 }

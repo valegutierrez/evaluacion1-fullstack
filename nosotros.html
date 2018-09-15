@@ -13,7 +13,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
+    <!--El siguiente body fue hecho con frameworks de GetBootstrap mayoritariamente, usando lo aprendido anteriormente para realizar la evaluación -->
     <body>
+        <!--Navbar implementado de GetBootstrap y editado según necesidades de la evaluación
+        Fuente: https://getbootstrap.com/docs/4.1/components/navbar/ -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,26 +43,131 @@
                 </div>
             </div>
             <div class="row small">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolor quibusdam aliquam eum nihil! Fugit veniam corporis doloremque officia quae voluptate ipsam quasi minus sit unde, minima dicta fugiat consequuntur.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, quas doloremque. Molestiae maiores et, autem vel molestias nam laborum similique in ratione iure laudantium ab obcaecati a tenetur quasi placeat?
-                </p>
-                <h4>Consejo General</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eos tempora! Accusamus placeat consectetur animi quas voluptatem praesentium nesciunt ad assumenda atque magni delectus quos, quae officiis obcaecati quasi numquam!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores. Alias veniam voluptates possimus ipsum illum rerum nihil non sequi, corrupti placeat officia fugit sed consequuntur vero! Minima, numquam debitis?
-                </p>
-                <h4>Comité Ejecutivo</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit sapiente et delectus molestias nesciunt porro veniam, obcaecati neque. Officia odit odio et voluptas recusandae vel quod sunt rerum ea perspiciatis!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis rerum quisquam officiis impedit et recusandae. Omnis reiciendis alias, repellat optio quasi qui quidem officiis facere minus? Similique error esse eum?
-                </p>
-                <h4>Directorio Ejecutivo</h4>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste omnis veritatis ut quidem quos, consectetur nobis rerum atque eius enim molestias tempora cupiditate ab praesentium pariatur dolor veniam a dicta?
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos eaque corrupti illum earum accusantium laborum nostrum vitae labore expedita sed id dolorem minus possimus eos nisi, fugiat, ex, autem est.
-                </p>
-                <img src="img/directorio.jpg">
+                <div class="col-md-6 offset-md-3 col-sm-12">
+                    <p>
+                        El objetivo general de la Fundación es contribuir con el tratamiento integral de los niños con cáncer y leucemia del país (Plan AUGE y GES), ayudando a su desarrollo integral, mejorando su calidad de vida y fortaleciendo su integración social y familiar.
+                        <br>
+                        En el año 1992 se creó la Fundación Oncológica Las Condes, atendiendo a niños y adultos con cáncer. En el año 2000 se modifican sus estatutos según el decreto N° 994 publicado en el Diario Oficial N° 36817, para atender solamente a niños con cáncer.
+                    </p>
+                    <h4>Consejo General</h4>
+                    <p>
+                        Este consejo sobre la base de un conocimiento técnico acabado de la enfermedad a nivel nacional e internacional, dan las líneas generales del trabajo de la Fundación. 
+                    </p>
+                    <!--Tabla de información implementada con GetBootstrap
+                    Fuente: https://getbootstrap.com/docs/4.1/content/tables/ -->
+                    <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Cargo</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Dr. Juan Quintana B.</td>
+                                <td>Pediatra Oncólogo Clínica Las Condes
+                                    <br>
+                                    Presidente de la Sociedad Latinoamericana de Oncología Pediátrica
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Dra. Anette Becker</td>
+                                <td>Hospital Sotero del Río</td>
+                              </tr>
+                              <tr>
+                                <td>Dra. Victoria Beresi</td>
+                                <td>Pediatra Hemato-oncóloga</td>
+                              </tr>
+                              <tr>
+                                <td>Dr. Felipe Espinoza C.</td>
+                                <td>Hospital San Borja Arriarán</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Carlos Rizzardini</td>
+                                <td>Hospital Roberto del Río</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Jaime Rojas</td>
+                                <td>Hospital Regional de Concepción</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Eduardo Páez</td>
+                                <td>Hospital Regional de Temuco</td>
+                            </tr>
+                            <tr>
+                                <td>Sr. Fernando Manns</td>
+                                <td>Productor Audiovisual</td>
+                            </tr>
+                            <tr>
+                                <td>Sr. Daniel Lyon</td>
+                                <td>Abogado</td>
+                            </tr>
+                            </tbody>
+                          </table>
+                    <h4>Comité Ejecutivo</h4>
+                    <p>
+                        Responsable directo del manejo de la Fundación.
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Cargo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Dr. Juan A. Quintana B.</td>
+                            <td>Presidente</td>
+                            </tr>
+                            <tr>
+                            <td>Dra. Victoria Beresi</td>
+                            <td>Secretaria</td>
+                            </tr>
+                            <tr>
+                            <td>Sr. Fernando Manns O.</td>
+                            <td>Tesorero</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    <h4>Directorio Ejecutivo</h4>
+                    <p>
+                        Está integrado por un grupo de profesionales y empresarios de reconocida trayectoria, cuyo principal objetivo es la obtención de recursos para los distintos proyectos.
+                    </p>
+                    <div class="text-center">
+                        <img class="img-responsive my-3" src="img/directorio.jpg">
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">Nombre</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Dr. Juan A. Quintana B.</td>
+                            </tr>
+                            <tr>
+                            <td>Sr. Carlos Ossa E.</td>
+                            </tr>
+                            <tr>
+                            <td>Dr. Felipe Espinoza C.</td>
+                            </tr>
+                            <tr>
+                            <td>Sr. Alejandro Miralles G.</td>
+                            </tr>
+                            <tr>
+                            <td>Sr. Daniel Lyon</td>
+                            </tr>
+                            <tr>
+                            <td>Dra. Victoria Beresi</td>
+                            </tr>
+                            <tr>
+                            <td>Sr. Fernando Manns O.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="row my-2">
                 <div class="col-12">
@@ -67,14 +175,15 @@
                 </div>
             </div>
             <div class="row small">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus asperiores, dolore cum exercitationem mollitia porro, cupiditate inventore velit repellendus quia in architecto nemo doloremque culpa maxime consectetur placeat adipisci magnam!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deserunt non optio voluptate, harum, neque minus odit eligendi ad ullam excepturi qui quae repellendus! Sed reiciendis possimus qui ipsa unde?
-                </p>
-                <h4>Principales actividades</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus optio id quasi, laboriosam autem ea quibusdam corrupti illum, consectetur, vero voluptatem quidem quo nisi consequatur hic quia molestiae dolores?
-                </p>
+                <div class="col-md-6 offset-md-3 col-sm-12">
+                    <p>
+                        La Fundación Niño y Cáncer es una entidad sin fines de lucro que nació para ser un importante apoyo en el tratamiento integral de los niños con cáncer o leucemia atendidos en el Sistema Público del país (Plan AUGE y GES) mejorando su calidad de vida y fortaleciendo su integración social y familiar.
+                    </p>
+                    <h4>Principales actividades</h4>
+                    <p>
+                        La fundación está convencida que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo de los pacientes. El espíritu también se ve afectado y para salir adelante es esencial querer curarse. Por esta razón, son muy importantes los programas recreativos, los cuales ayudan a superar los sufrimientos y mantener vivo el deseo de curarse.
+                    </p>
+                </div>
             </div>
         </div>
         <footer>
